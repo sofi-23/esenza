@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.navBar {
+  display: flex;
+  background-color: slateblue;
+  justify-content:flex-start;
+  align-items: center;
+  padding-left: 1rem;
+
+}
+
+.lista {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.lista li {
+  padding-left: 1.2rem;
+}
