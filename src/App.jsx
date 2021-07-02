@@ -1,12 +1,13 @@
 import "./App.css";
 import Navbar from "./Components/Navbar/Navbar.jsx" //poner la ruta completa
+import ItemListContainer from "./Components/ItemList/ItemListContainer.jsx"
 
 function App() {
-  return ( //se puede devolver 1 componente solo por elemento, que contenga todo el resto. Se puede usar fragment <></>.
+  return ( 
     <>
       <div className="App">  
-      <Navbar nombreDeLaTienda="Esenza" subtitulo="Perfumería"
-      />
+      <Navbar />
+      <ItemListContainer title="Tienda oficial de Esenza"/>
       </div>
     </>
   );
