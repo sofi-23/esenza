@@ -5,9 +5,9 @@ import Logo from "./Logo/Logo.jsx"
 const Navbar = (props) => {
     console.log(props);
     return (
-        <nav class="navBar">
+        <nav className="navBar">
         <div className="navBarMenu">
-            <div class="titulo">
+            <div className="titulo">
             <Logo />
             </div>
             <ul className="lista">
