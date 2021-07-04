@@ -1,46 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&family=Charmonman:wght@700&family=Clicker+Script&display=swap');
+
 *{
   margin: 0;
   padding: 0;
   background: #f9f9f9;
+  font-family: 'Bona Nova', serif;
+  font-size: 16px;
 }
 
-.navBarMenu {
-  display: flex;
-  background-color: white;
-  justify-content:flex-start;
-  align-items: center;
-  padding-left: 1rem;
-
-}
-
-.lista {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  list-style: none;
-}
-
-.lista li {
-  padding-left: 1.2rem;
-  background: white;
-}
-
-.cartIcon {
-  height: 40px;
-  background: white;
-}
-
-.navBar {
-  display:flex;
-  justify-content: space-between;
-  background-color: white;
-  align-items: center;
-}
-
-.logo {
-  height: 40px;
-}
-
-.tituloPrincipal {
-  text-align: center;
-}

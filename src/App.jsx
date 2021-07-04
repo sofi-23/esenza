@@ -1,13 +1,15 @@
 import "./App.css";
 import Navbar from "./Components/Navbar/Navbar.jsx" //poner la ruta completa
 import ItemListContainer from "./Components/ItemList/ItemListContainer.jsx"
+import "./styles/main.css";
+import 'bulma/css/bulma.min.css';
 
 function App() {
   return ( 
     <>
       <div className="App">  
       <Navbar />
-      <ItemListContainer title="Tienda oficial de Esenza"/>
+      <ItemListContainer title="Tienda oficial de Esenza" />
       </div>
     </>
   );

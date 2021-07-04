@@ -1,6 +1,5 @@
 import React from "react";
-import Cart from "./Cart/Cart.jsx"
-import Logo from "./Logo/Logo.jsx"
+import {AiOutlineShoppingCart} from 'react-icons/ai';
 
 const Navbar = (props) => {
     console.log(props);
@@ -8,17 +7,18 @@ const Navbar = (props) => {
         <nav className="navBar">
         <div className="navBarMenu">
             <div className="titulo">
-            <Logo />
+            <h1 className="name">Esenzas</h1>
             </div>
             <ul className="lista">
-                <li>Yves Saint Laurent</li>
-                <li>Calvin Klein</li>
-                <li>Gucci</li>
-                <li>Pacco Rabanne</li>
-                <li>Dior</li>
+                <li>YSL</li>
+                <li>CALVIN KLEIN</li>
+                <li>GUCCI</li>
+                <li>PACCO RABANNE</li>
+                <li>DIOR</li>
+                <li>CHANEL</li>
             </ul>
             </div>
-            <Cart  />
+          <AiOutlineShoppingCart />
         </nav>
     );
 };

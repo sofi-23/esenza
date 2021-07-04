@@ -1,7 +1,9 @@
 import React from "react";
+import ItemCount from "./ItemCount"
+
 
 const ItemListContainer = (props) => {
-    return <h2 className="tituloPrincipal">{props.title}</h2>;
+    return <ItemCount  max={7} min={1} />
 };
 
 export default ItemListContainer;

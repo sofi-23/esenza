@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Bona+Nova:ital@0;1&family=Charmonman:wght@700&family=Clicker+Script&display=swap");
+.navBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navBar .navBarMenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 1rem;
+}
+
+.navBar .navBarMenu .name {
+  font-family: 'Bona nova', cursive;
+  background: white;
+  font-style: italic;
+  font-size: 2.3em;
+}
+
+.navBar .navBarMenu .lista {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+.navBar .navBarMenu .lista li {
+  padding-left: 1.2rem;
+  background: white;
+}
+
+.productCountContainer {
+  width: 20%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 300px;
+}
+
+.productCountContainer .productCount {
+  font-weight: 600;
+}
+/*# sourceMappingURL=main.css.map */

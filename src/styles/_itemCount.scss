@@ -1,0 +1,11 @@
+.productCountContainer {
+    width: 20%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+    .productCount {
+        font-weight: 600;
+    }
+}

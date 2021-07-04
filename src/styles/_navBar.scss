@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital@0;1&family=Charmonman:wght@700&family=Clicker+Script&display=swap');
+
+.navBar {
+    display:flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    .navBarMenu {
+        display: flex;
+        background-color: white;
+        justify-content:flex-start;
+        align-items: center;
+        padding-left: 1rem;
+        .name {
+            font-family: 'Bona nova', cursive;
+            background: white;
+            font-style: italic;
+            font-size: 2.3em;
+        }
+        .lista {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            list-style: none;
+            li {
+                padding-left: 1.2rem;
+                background: white;
+            }
+        }
+    }
+}  
+  
