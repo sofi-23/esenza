@@ -26,6 +26,7 @@ const  ItemCount = ({min, max}) => {
 
         }else{
             setDisabledMax(false);
+            setDisabledMin(false);
 
         }
     }
@@ -34,6 +35,7 @@ const  ItemCount = ({min, max}) => {
             disableMin();
             setDisabledMax(false);
         }else{
+            setDisabledMax(false);
             setDisabledMin(false);
 
         }
