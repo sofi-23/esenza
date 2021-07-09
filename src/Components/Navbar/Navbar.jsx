@@ -15,7 +15,6 @@ const Navbar = (props) => {
                 <li>GUCCI</li>
                 <li>PACCO RABANNE</li>
                 <li>DIOR</li>
-                <li>CHANEL</li>
             </ul>
             </div>
           <AiOutlineShoppingCart />
