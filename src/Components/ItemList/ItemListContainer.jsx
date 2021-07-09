@@ -1,3 +1,4 @@
+
 import React from "react"
 import ItemCount from "./ItemCount"
 import  ItemList from "./ItemList"
@@ -18,7 +19,7 @@ const ItemListContainer = (props) => {
             price: 100,
             pictureUrl: "../../../public/img/libre-ysl.png",},
         {id: 3,
-            title: "Mon Paris Eau de Parfum 90ml- Yves Saint Laurent",
+            title: "Opium Eau de Parfum 90ml- Yves Saint Laurent",
             description: "A captivating floral gourmand scent, twisted with an overdose of black coffee, for a shot of adrenaline.",
             price: 110,
             pictureUrl: "../../../public/img/opium-ysl.jpg",},

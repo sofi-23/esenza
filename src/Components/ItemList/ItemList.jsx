@@ -1,23 +1,22 @@
+
 import React from "react";
-import {useState} from "react";
+import Item from "./Item"
 
 const ItemList = ({array}) => {
-    const newArray = array.map(aarr=>aarr);
-    const img = array.map(arr=>arr.pictureUrl);
-    console.log("imagen 0" + img[0]);
-    const title = array.map(arr=>arr.title);
-    const price = array.map(arr=>arr.price);
-
+   // const newArray = array.map(aarr=>aarr);
+     
     return (
         
-    <div className="columns">
-        <div className="column">
-            <div className="card">
-                <div className="card-image"><img src={''+img[0]+''} />
-                </div>
-            </div>
+        <div className="columns">
+          
+                {array.map(array => (
+                      <div className="column">
+                          <Item items={array} key={array.id}/> 
+                      </div>
+                ))}
         </div>
-     </div>
+       
+        
     )
 };
 
